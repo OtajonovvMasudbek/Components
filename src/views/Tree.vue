@@ -36,7 +36,7 @@
   <script setup>
   import { reactive, ref, onMounted } from 'vue'
   import axios from 'axios'
-  import CollapsibleButton from '../components/TreeCompanents.vue'
+  import CollapsibleButton from '../components/Tree/TreeButton.vue'
   
   const openSections = reactive({
     models: false,

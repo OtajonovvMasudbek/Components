@@ -1,10 +1,10 @@
 <template>
   <div>
-      <Tree/>
+    <Tree />
+    <Table/>
   </div>
 </template>
 <script setup>
-
-   import Tree from "./views/Tree.vue";
-
+import Table from "./views/Table.vue";
+import Tree from "./views/Tree.vue";
 </script>
